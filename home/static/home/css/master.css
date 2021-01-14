@@ -49,13 +49,41 @@
   }
 
 .branding {
-    width: 39%;
-    height: auto;
+    width: 30%;
+    height: 130%;
+
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: #33658A;
+}
 
-.navbar-custom .navbar-brand, 
-.navbar-custom .navbar-text,
-.navbar-custom .navbar-nav { 
-    color: #32E875; 
-} 
+.custom-navbar {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size:1.2em;
+    color:white;
+    margin-bottom: 1em;
+}
+
+.navbar-brand {
+    align-self: flex-start;
+}
+
+.navbar-nav a:hover {
+    background-color:#33658A;
+    color:white;
+    border: 10px solid #33658A;
+  }
+
+.navbar-nav a:active {
+    font-style: bold;
+}
+
+.cover {
+    height:auto;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
