@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.humanize',
     'bootstrap4',
-    'announcements.apps.AnnouncementsConfig',
+    'announcement.apps.AnnouncementConfig',
     'home.apps.HomeConfig',
 ]
 
